@@ -1,5 +1,5 @@
 diff --git a/es-app/src/guis/GuiMenu.cpp b/es-app/src/guis/GuiMenu.cpp
-index 19c1dcd..7a82e6c 100644
+index f7f0018..e0e426a 100644
 --- a/es-app/src/guis/GuiMenu.cpp
 +++ b/es-app/src/guis/GuiMenu.cpp
 @@ -122,6 +122,7 @@ GuiMenu::GuiMenu(Window *window) : GuiComponent(window), mMenu(window, "MAIN MEN
@@ -12,15 +12,15 @@ index 19c1dcd..7a82e6c 100644
  
 diff --git a/locale/lang/tr/LC_MESSAGES/emulationstation2.po b/locale/lang/tr/LC_MESSAGES/emulationstation2.po
 new file mode 100644
-index 0000000..3fd1435
+index 0000000..109acbf
 --- /dev/null
 +++ b/locale/lang/tr/LC_MESSAGES/emulationstation2.po
-@@ -0,0 +1,602 @@
+@@ -0,0 +1,622 @@
 +msgid ""
 +msgstr ""
 +"Project-Id-Version: Emulationstation 2.0RC1 TURKISH po\n"
 +"POT-Creation-Date: 2014-09-20 12:00-0500\n"
-+"PO-Revision-Date: 2015-11-10 22:37+0200\n"
++"PO-Revision-Date: 2015-11-13 16:57+0200\n"
 +"Last-Translator: Ibrahim Gungor <igungor@gmail.com>\n"
 +"Language-Team: TURKISH\n"
 +"MIME-Version: 1.0\n"
@@ -64,65 +64,71 @@ index 0000000..3fd1435
 +msgstr "Oynanma sayısı: "
 +
 +#: es-app/src/MetaData.cpp
-+msgid "enter game name"
-+msgstr "oyun adı girin"
++msgid "ENTER GAME NAME"
++msgstr "OYUN ADI"
 +
 +msgid "NAME"
 +msgstr "İSİM"
 +
++msgid "DESCRIPTION"
++msgstr "AÇIKLAMA"
++
 +msgid "ENTER DESCRIPTION"
-+msgstr "AÇIKLAMA GİRİN"
++msgstr "AÇIKLAMA"
++
++msgid "IMAGE"
++msgstr "RESİM"
 +
 +msgid "ENTER PATH TO IMAGE"
-+msgstr "RESİM DOSYASININ KONUMUNU"
++msgstr "KONUM"
 +
 +msgid "THUMBNAIL"
 +msgstr "ÖNİZLEME"
 +
 +msgid "ENTER PATH TO THUMBNAIL"
-+msgstr "ÖNİZLEME DOSYASININ KONUMU"
++msgstr "KONUM"
 +
 +msgid "RATING"
 +msgstr "PUAN"
 +
 +msgid "ENTER SCORE"
-+msgstr "SKOR GİRİN"
++msgstr "SKOR"
 +
 +msgid "RELEASE DATE"
 +msgstr "YAYINLANMA TARİHİ"
 +
 +msgid "ENTER RELEASE DATE"
-+msgstr "YAYINLANMA TARİHİ GİRİN"
++msgstr "YAYIN TARİHİ"
 +
 +msgid "DEVELOPER"
 +msgstr "GELİŞTİRİCİ"
 +
 +msgid "ENTER GAME DEVELOPER"
-+msgstr "GELİŞTİRİCİ GİRİN"
++msgstr "GELİŞTİRİCİ"
 +
 +msgid "PUBLISHER"
 +msgstr "YAYINCI"
 +
 +msgid "ENTER GAME PUBLISHER"
-+msgstr "YAYINCI GİRİN"
++msgstr "YAYINCI"
 +
 +msgid "GENRE"
 +msgstr "TÜR"
 +
 +msgid "ENTER GAME GENRE"
-+msgstr "TÜR GİRİN"
++msgstr "TÜR"
 +
 +msgid "PLAYERS"
 +msgstr "OYUNCU SAYISI"
 +
 +msgid "ENTER NUMBER OF PLAYERS"
-+msgstr "OYUNCU SAYISI GİRİN"
++msgstr "OYUNCU SAYISI"
 +
 +msgid "PLAY COUNT"
 +msgstr "OYNANMA SAYISI"
 +
 +msgid "ENTER NUMBER OF TIMES PLAYED"
-+msgstr "KAÇ KEZ OYNANDIĞINI GİRİN"
++msgstr "KAÇ KEZ OYNANDI?"
 +
 +#: es-app/src/guis/GuiMenu.cpp
 +msgid "SCRAPE FROM"
@@ -277,9 +283,6 @@ index 0000000..3fd1435
 +msgid " GAMES AVAILABLE"
 +msgstr " OYUN"
 +
-+msgid " GAME AVAILABLE"
-+msgstr " OYUN"
-+
 +#: es-app/src/guis/GuiGamelistOptions.cpp
 +msgid "JUMP TO LETTER"
 +msgstr "ŞU HARFE GİT"
@@ -377,6 +380,8 @@ index 0000000..3fd1435
 +
 +msgid "NOGAMEERRORMESSAGE"
 +msgstr ""
++"KURULU BİR SİSTEM BULUNAMASI!\n"
++"SİSTEM YAPILANDIRMA DOSYASINDA TANIMLI SİSTEMLERİN KONUMLARINI ve OYUN KLASÖRÜNDE EN AZ BİR OYUN OLDUĞUNU KONTROL EDİN."
 +
 +msgid "LANGUAGE"
 +msgstr "DİL"
@@ -467,7 +472,7 @@ index 0000000..3fd1435
 +msgstr "JOYSTICK 2 SOL"
 +
 +msgid "I18NMESSAGECONTROLLERS"
-+msgstr ""
++msgstr "JOYSTICK YAPILANDIRIRKEN AYARLAMAK İSTEMEDİGİNİZ TUŞLAR İÇİN HERHANGİ GİR TUŞA BASILI TUTARAK BİR SONRAKİ AŞAMAYA GEÇEBİLİRSİNİZ. HOTKEY, FARKLI TUŞLARLA BİRLİKTE BASILDIĞINDA FARKLI İŞLEMLER YAPMAYI SAĞLAMAYA YARAYAN BİR TUŞTUR. HANGİ TUŞU SEÇMENİZ GEREKTİĞİNİ BİLMİYORSANIZ SELECT TUŞUNA ATAYABİLİRSİNİZ."
 +
 +# TEXT EDITING
 +msgid "EDIT"
@@ -526,8 +531,8 @@ index 0000000..3fd1435
 +msgid "FAVORITE"
 +msgstr "FAVORİ"
 +
-+msgid "enter favorite"
-+msgstr "favori girin"
++msgid "ENTER FAVORITE"
++msgstr "FAVORI"
 +
 +# NEW SETTINGS ORGANIZATION
 +msgid "UPDATES"
@@ -621,3 +626,15 @@ index 0000000..3fd1435
 +
 +msgid "START"
 +msgstr "BAŞLAT"
++
++msgid "unknown"
++msgstr "bilinmiyor"
++
++msgid "OK"
++msgstr "TAMAM"
++
++msgid "yes"
++msgstr "evet"
++
++msgid "no"
++msgstr "hayır"
