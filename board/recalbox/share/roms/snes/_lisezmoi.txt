@@ -1,8 +1,0 @@
-## RECALBOX - SYSTEM SNES ##
-
-Placez ici vos roms super nintendo.
-
-Les roms doivent avoir l'extension ".smc" ou ".sfc"
-
-Vous pouvez télécharger les roms snes à l'adresse :
-http://www.planetemu.net/roms/nintendo-super-nes
